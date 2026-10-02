@@ -9,12 +9,6 @@ public class FreteAereo implements IFrete {
     }
 
     @Override
-    public double criarFrete() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'criarFrete'");
-    }
-
-    @Override
     public double calcularFrete() {
         return this.carga * 2/100;
     }
