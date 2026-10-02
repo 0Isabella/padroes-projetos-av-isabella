@@ -18,6 +18,8 @@ public class fabricaMexico implements IFabrica {
     @Override 
     public String relatorio(){
         return "RELATÓRIO"
-        + criarComprovante();
+        + this.criarComprovante()
+        + this.criarPagamento()
+        + this.criarTermo();
     }
 }
